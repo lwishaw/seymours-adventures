@@ -1,0 +1,16 @@
+nav a,i:hover {
+  color: darkgray;
+}
+nav li{
+  background-color: goldenrod;
+  display: flex; 
+  justify-content:space-around;
+  flex-flow: row wrap;
+  padding: 1rem 1rem;
+  
+}
+nav a,i{
+  color: white;
+  text-decoration: none;
+
+}

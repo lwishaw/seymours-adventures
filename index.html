@@ -1,8 +1,21 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>Seymour's adventures</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="styles/reset.css">
+      <link rel="stylesheet" href="seymour.css">
+      <!-- facebook tags -->
+      <meta property="og:title" content="Seymour's Adventures">
+      <meta property="og:description" content="The life of a (spoiled) kitten in Tacoma.">
+      <meta property="og:image" content="seymour.jpg">
+      <meta property="og:url" content="https://lwishaw.github.io/seymours-adventures/">
+      <meta property="og:type" content="website">
+      <!-- twitter tags -->
+      <meta name="twitter:title" content="Seymour's Adventures">
+      <meta name="twitter:description" content="The life of a (spoiled) kitten in Tacoma.">
+      <meta name="twitter:image" content="seymourwork.jpg">
+      <meta name="twitter:card" content="summary_large_image">
+      <title>Seymour's adventures</title>
     </head>
     <body>
       <header> 
@@ -28,12 +41,27 @@
       <p>My theory? It stands for “Master of the Universe.”</p>
       <img src="seymourwork.jpg" alt="seymour work"> 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<!--
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
--->
+      <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function(f) {
+        t._e.push(f);
+        };
+
+        return t;
+        }(document, "script", "twitter-wjs"));
+      </script>
 <!--        <script src="https://www.google-analytics.com/analytics.js" async defer></script>-->
     </body>
+  <footer>
+  <a class="twitter-share-button"  href="https://twitter.com/intent/tweet?text=wow">Tweet
+  </a>
+  </footer>
 </html>
